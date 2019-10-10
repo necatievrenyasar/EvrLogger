@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B2A8D265234F32F900A403CC /* EvrLogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A8D264234F32F900A403CC /* EvrLogModel.swift */; };
+		B2A8D26B234FB70300A403CC /* EvrFileTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A8D26A234FB70300A403CC /* EvrFileTest.swift */; };
 		B2D6AD02234F19CA00AED471 /* EvrLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D6ACF8234F19CA00AED471 /* EvrLogger.framework */; };
 		B2D6AD07234F19CA00AED471 /* EvrLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D6AD06234F19CA00AED471 /* EvrLoggerTests.swift */; };
 		B2D6AD09234F19CA00AED471 /* EvrLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D6ACFB234F19CA00AED471 /* EvrLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		B2A8D264234F32F900A403CC /* EvrLogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvrLogModel.swift; sourceTree = "<group>"; };
+		B2A8D26A234FB70300A403CC /* EvrFileTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvrFileTest.swift; sourceTree = "<group>"; };
 		B2D6ACF8234F19CA00AED471 /* EvrLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EvrLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D6ACFB234F19CA00AED471 /* EvrLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EvrLogger.h; sourceTree = "<group>"; };
 		B2D6ACFC234F19CA00AED471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			children = (
 				B2D6AD06234F19CA00AED471 /* EvrLoggerTests.swift */,
 				B2D6AD08234F19CA00AED471 /* Info.plist */,
+				B2A8D26A234FB70300A403CC /* EvrFileTest.swift */,
 			);
 			path = EvrLoggerTests;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2D6AD07234F19CA00AED471 /* EvrLoggerTests.swift in Sources */,
+				B2A8D26B234FB70300A403CC /* EvrFileTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

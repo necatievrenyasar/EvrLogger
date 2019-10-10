@@ -11,8 +11,9 @@ import Foundation
 public class EvrLogger {
     
     public enum LogType {
+        
         case debug, error, info, warning
-        //📒📘📙
+        
         func getChar() -> String {
             switch self {
             case .debug:
@@ -63,7 +64,7 @@ public class EvrLogger {
        }
     
     
-    public class func getFileName(_ filePath: String) -> String {
+    public func getFileName(_ filePath: String) -> String {
         let parser = filePath.split(separator:"/")
         if let fileName = String(parser.last ?? "").split(separator: ".").first {
             return String(fileName)

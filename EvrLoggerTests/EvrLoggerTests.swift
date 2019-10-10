@@ -20,10 +20,7 @@ class EvrLoggerTests: XCTestCase {
 
     func testFunctionAndFileName() {
         Log?.i("Test Message")
-        
         XCTAssertNotNil(Log?.latestModel)
-        print(Log?.latestModel?.fileName)
-        print(Log?.latestModel?.functionName)
         XCTAssert(Log?.latestModel?.type == EvrLogger.LogType.info, "Log type isn't equal to Info")
     }
     /*

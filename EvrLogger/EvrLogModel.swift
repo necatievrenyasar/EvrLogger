@@ -14,6 +14,6 @@ public struct EvrLogModel {
     public let message: String
     
     public func toString() -> String {
-        return " \(type.getChar()) \(type.getName()) \(type.getChar()) \(EvrLogger.getFileName(fileName)).\(functionName) -> \(message)"
+        return " \(type.getChar()) \(type.getName()) \(type.getChar()) \(EvrLogger().getFileName(fileName)).\(functionName) -> \(message)"
     }
 }
